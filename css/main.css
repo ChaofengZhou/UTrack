@@ -1,0 +1,725 @@
+/*  Author: Chaofeng Zhou, 
+    date: 1/28/2016,
+    Purpose: this is the main css file for the whole website.
+*/
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  margin: 0;
+  /*background-color: #f0f0f0;*/
+  background-color: #E9E8E0;
+}
+
+.navbar {
+  background-color: #971e21;
+  /*#3e78ad;*/
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 0px;
+}
+
+.navbar-default .navbar-brand {
+  color: #fff;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+#navbar-title {
+  margin-left: 0;
+}
+
+.dropdown-menu>li>a:hover {
+  background-color: #f0f0f0;
+}
+
+
+.temp-visits-table {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.navbar-default .navbar-text {
+  margin: 14px 0 14px 10px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.navbar-dropdown {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  display: inline;
+}
+
+.visit-form {
+  display: inline-block;
+  width: 200px;
+  margin-right: 15px;
+}
+
+/*.open {
+  color: #ddd;
+  background-color: maroon;
+}*/
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #ddd;
+    background-color: maroon;
+}
+
+#nav-dropdown:hover {
+  color: #fff;
+  background-color: maroon;
+}
+
+ol li {
+  font-size: 18px;
+}
+
+.dropdown-menu {
+  min-width: 100px;
+}
+
+.dropdown-menu>li>a {
+font-weight: 600;
+}
+
+/*.dropdown {
+  width: 200px;
+  display: inline-block;
+  margin-right: 50px;
+}*/
+
+.poi-search {
+  margin-bottom: 10px;
+}
+
+.poi-search1, .poi-search2 {
+  width: 150px;
+  display: inline-block;
+  margin-top: 15px
+}
+
+.feedback-li {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  border-left: 0 solid #fff;
+  border-right: 0 solid #fff;
+}
+
+.add-visit-form {
+   margin: 10px 30px 10px 10px; 
+   padding: 15px 0 15px 10px;
+   border-top: 1px solid #ddd;
+   border-bottom: 1px solid #ddd;
+}
+
+.poi-search1 {
+  margin-right: 42px;
+}
+
+.category {
+  padding: 5px 0 10px 15px; 
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.search-btn {
+  margin-top: 15px;
+}
+
+.show-btn {
+  margin-left: 30px;
+}
+
+#num {
+  width: 70px;
+  display: inline-block;
+}
+
+.signup-form {
+  margin: 20px 0;
+}
+
+.index-column {
+  padding-left: 14px;
+}
+
+.navbar-default .navbar-brand:hover {
+  /*background-color: #cccccc;*/
+  /*background-color: #971e21;*/
+  /*background-color: #31608a;*/
+  background-color: #971e21;
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: maroon;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #3e78ad;
+}
+
+.glyphicon {
+  -ms-transform: translate(-1px, 1px);
+  /* IE 9 */
+  -webkit-transform: translate(-1px, 1px);
+  /* Safari */
+  transform: translate(-1px, 1px);
+}
+
+.index-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+}
+
+/*.header {
+  font-size: 28px;
+  height: 72px;
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid black;
+  background-color: #3e78ad;
+  box-shadow: 0 0 1px 1px rgba(0,0,0,.1);
+}*/
+
+.jumbotron {
+  padding-top: 30px;
+  padding-bottom: 48px;
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.footer {
+  width: 100%;
+  height: 70px;
+  bottom: 0;
+  left: 0;
+  margin-top: 50px;
+}
+
+.header-text {
+  width: 70%;
+  margin: 0 auto;
+}
+
+a {
+  color: #2158AB;
+}
+
+.header-link {
+  font-size: 20px;
+  float: right;
+  padding: 24px 10px 24px 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.name {
+  float: left;
+  margin: 20px 20px 20px 40px;
+  color: white;
+  font-weight: bold;
+}
+
+.proj-title {
+  float: left;
+  padding: 19px 10px 19px 10px;
+  margin-left: 30px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.proj-title:hover {
+  float: left;
+  /*background-color: #cccccc;*/
+  /*background-color: #971e21;*/
+  background-color: #31608a;
+  text-decoration: none;
+}
+
+.footer-text {
+  width: 68%;
+  margin: 0 auto;
+}
+
+.footer-link {
+  font-size: 18px;
+  float: left;
+  padding: 16px 15px 16px 15px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  background-color: #cccccc;
+  text-decoration: none;
+}
+
+.copyright {
+  font-size: 16px;
+  float: right;
+  margin: 18px 0;
+}
+
+.header-link:hover {
+  /*background-color: #cccccc;*/
+  /*background-color: #971e21;*/
+  background-color: #31608a;
+  text-decoration: none;
+}
+
+.content {
+  font-size: 17px;
+}
+
+.cards {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.detail-title {
+  margin: 15px 0 15px 20px;
+  font-size: 30px;
+  font-weight: bold;
+  display: inline-block; 
+}
+
+.second-title {
+  margin: 5px 0 15px 15px;
+  font-size: 25px;
+  font-weight: bold;
+  display: inline-block; 
+}
+
+.poi-list {
+  padding-right: 25px;
+  padding-left: 5px;
+}
+
+.user-list {
+  padding-right: 5px;
+  padding-left: 25px;
+}
+
+.card-title {
+  margin: 0 0 15px 0;
+  font-size: 30px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.charts {
+  margin: 5px 0 15px 20px;
+}
+
+.charts select {
+  width: 400px;
+}
+
+.projects {
+  margin: 35px 0 10px 25px;
+  padding: 8px 0;
+  margin-left: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.projects a {
+  text-decoration: none;
+  /*color: #2ecc71;*/
+}
+
+.class-example {
+  margin-top: 25px;
+  padding: 7px 0;
+  margin-left: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.proj-shortdescr {
+  font-size: 15px;
+  padding-left: 15px;
+}
+
+.projects li,
+.class-example li {
+  margin: 15px 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+  font-size: 18px;
+}
+
+
+/*a {
+  color: #3232ff;
+}*/
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+/*  Author: Chaofeng Zhou, 
+    date: 1/28/2016,
+    Purpose: this is the css file for the the first assignment
+*/
+
+.nav-form {
+  border: 1px solid #971e21;
+  /*#3e78ad;*/
+}
+
+.nav-signup {
+  margin-left: 4px;
+  border: 1px solid #ddd;
+  background-color: #971e21;
+}
+
+.nav-signup:hover {
+  border-color: #31b0d5;
+}
+
+.nav-signin:hover {
+  border-color: #449d44;
+}
+
+.nav-logout {
+  margin-left: 4px;
+  border: 1px solid #ddd;
+  background-color: #971e21;
+}
+
+.nav-logout:hover {
+  border: 1px solid #ddd;
+}
+
+.nav-signin {
+  margin-left: 3px;
+  border: 1px solid #ddd;
+  background-color: #971e21;
+}
+
+.jumbotron {
+  background-color: #fff;
+  margin-top: 20px;
+}
+
+.studentList {
+  margin-top: 35px;
+  margin-left: 20px;
+  padding: 8px 5px;
+  margin-bottom: 25px;
+  background-color: #fff;
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.card-content {
+  margin: 10px 20px 10px 20px;
+}
+
+.card-links {
+  padding-bottom: 20px;
+}
+
+.card-links a {
+  padding: 0 20px;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.student-list-table {
+  margin: 10px 0 10px 20px;
+}
+
+.student-list-table a {
+  text-decoration: none;
+}
+
+.student-list-table table {
+  border-collapse: collapse;
+}
+
+.studentList a {
+  text-decoration: none;
+}
+
+.studentList a:hover {
+  text-decoration: underline;
+}
+
+.form-table {
+  padding: 10px 20px;
+  font-size: 19px;
+  text-align: left;
+}
+
+.signup-form-table {
+  margin: 0 auto;
+  width: 430px;
+  padding: 15px 45px;
+  text-align: left;
+  border-radius: 5px;
+}
+
+.signup-form-table th {
+  padding: 15px 0px;
+  text-align: left;
+  font-size: 18px;
+}
+
+.signup-form-table td {
+  padding: 10px 20px;
+  text-align: left;
+}
+
+.bottom-descr {
+  padding: 10px 20px;
+}
+
+.feedback-rating {
+  width: 100px;
+  height: 25px;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.name-row {
+  padding-top: 5px;
+  font-weight: bold;
+  font-size: 21px;
+}
+
+.jumbotron .front_page {
+  padding-bottom: 15px;
+}
+
+.detail-row {
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+
+.feedback-area {
+  padding: 10px 20px 0 20px;
+}
+
+.feedback-list {
+  /*padding: 10px 20px 0 20px;*/
+}
+
+.submit-feedback-btn {
+  margin: 15px 0 0 0;
+  /*float: right;*/
+  right: 0;
+}
+
+.feedback-rating-btn {
+  margin-left: 15px;
+}
+
+.form-table th {
+  padding: 13px 0px;
+  text-align: left;
+}
+
+.form-table td {
+  padding: 8px 20px;
+  text-align: left;
+}
+
+.semester-form {
+  margin-top: 30px;
+  border-collapse: collapse;
+}
+
+.semester-form th,
+.semester-form td {
+  width: 220px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.form-name {
+  text-align: center;
+  display: block;
+  margin-top: 24px;
+  font-size: 23px;
+}
+
+tr {
+  padding: 20px;
+}
+
+.student-list-table tr:nth-child(odd),
+.schema-table tr:nth-child(odd) {
+  background-color: #f0f0f0;
+}
+
+.tHeader {
+  background-color: #6493bd;
+  color: #fcfcfb;
+}
+
+.student-list-table th,
+.student-list-table td {
+  padding: 15px 30px;
+  text-align: center;
+}
+
+.schema-table {
+  margin: 10px 0 10px 10px;
+  padding-left: 5px;
+  border-collapse: collapse;
+}
+
+.schema-table tr {
+  padding: 5px;
+}
+
+.schema-table th,
+.schema-table td {
+  padding: 15px 10px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.er-diagram {
+  width: 80%;
+}
+
+
+/*input {
+  height: 36px;
+  width: 270px;
+  border-radius: 3px;
+  border: 1px solid #666;
+}*/
+
+
+/*input[type="text"],
+input[type="password"] {
+  padding-left: 5px;
+  font-size: 15px;
+}*/
+
+textarea {
+  padding-left: 5px;
+  font-size: 15px;
+}
+
+.signup-btn {
+  /*margin: 20px 15px 0 50px;*/
+  margin: 20px auto;
+}
+
+.cancel-btn {
+  /*margin: 20px 15px 0 20px;*/
+  margin: 20px auto;
+}
+
+.studentList .cancel-btn:hover {
+  text-decoration: none;
+}
+
+.submit-form-btn {
+  margin: 20px 15px 10px 18px;
+}
+
+.save-profile-btn {
+  margin: 20px 15px 10px 20px;
+}
+
+.save-role-btn {
+  margin: 0;
+}
+
+.studentList .submit-form-btn:hover {
+  text-decoration: none;
+}
+
+.newuser-table {
+  width: 90%;
+  margin: auto;
+}
+
+.warning {
+  color: red;
+  text-align: center;
+}
+
+.uid-descr {
+  font-weight: normal;
+  font-size: 13px;
+}
+
+select {
+  -webkit-appearance: menulist-button;
+  margin: 5px 0;
+  width: 130px;
+  height: 30px;
+}
+
+.yes-icon,
+.no-icon {
+  margin: 0 0 0 25px;
+  zoom: 50%;
+}
+
+.advisor-signed {
+  margin: 0 0 0 800px;
+}
+
+input[type='radio'] {
+  width: 15px;
+  height: 15px;
+  margin-left: 30px;
+}
+
+.readme-title {
+  font-size: 26px;
+  margin: 15px 0 15px 20px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.readme-content p {
+  font-size: 19px;
+}
+
+
+/*input:required:invalid,
+input:focus:invalid {
+  border: 1px solid #dd0000;
+  background-position: right top;
+  background-repeat: no-repeat;
+  -moz-box-shadow: none;
+}*/
+
+input:required:valid {
+  /*background-image: url('../asset/yes.svg');*/
+  /*background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAepJREFUeNrEk79PFEEUx9/uDDd7v/AAQQnEQokmJCRGwc7/QeM/YGVxsZJQYI/EhCChICYmUJigNBSGzobQaI5SaYRw6imne0d2D/bYmZ3dGd+YQKEHYiyc5GUyb3Y+77vfeWNpreFfhvXfAWAAJtbKi7dff1rWK9vPHx3mThP2Iaipk5EzTg8Qmru38H7izmkFHAF4WH1R52654PR0Oamzj2dKxYt/Bbg1OPZuY3d9aU82VGem/5LtnJscLxWzfzRxaWNqWJP0XUadIbSzu5DuvUJpzq7sfYBKsP1GJeLB+PWpt8cCXm4+2+zLXx4guKiLXWA2Nc5ChOuacMEPv20FkT+dIawyenVi5VcAbcigWzXLeNiDRCdwId0LFm5IUMBIBgrp8wOEsFlfeCGm23/zoBZWn9a4C314A1nCoM1OAVccuGyCkPs/P+pIdVIOkG9pIh6YlyqCrwhRKD3GygK9PUBImIQQxRi4b2O+JcCLg8+e8NZiLVEygwCrWpYF0jQJziYU/ho2TUuCPTn8hHcQNuZy1/94sAMOzQHDeqaij7Cd8Dt8CatGhX3iWxgtFW/m29pnUjR7TSQcRCIAVW1FSr6KAVYdi+5Pj8yunviYHq7f72po3Y9dbi7CxzDO1+duzCXH9cEPAQYAhJELY/AqBtwAAAAASUVORK5CYII=);*/
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+
+.btns {
+  width: 248px;
+  margin: 0 auto;
+}
+
+#chart {
+  /*height: 600px;*/
+}
